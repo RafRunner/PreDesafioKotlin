@@ -4,7 +4,7 @@ import java.lang.Exception
 import java.math.BigDecimal
 import java.math.BigInteger
 
-class Item(val codigo: String, preco: BigDecimal, val descricao: String, qtdEstoque: Int) {
+open class Item(val codigo: String, preco: BigDecimal, val descricao: String, qtdEstoque: Int) {
 
     var preco: BigDecimal = BigDecimal.ZERO
         set(value) {
