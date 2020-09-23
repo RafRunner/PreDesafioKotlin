@@ -15,7 +15,7 @@ open class Item(val codigo: String, preco: BigDecimal, val descricao: String, qt
         }
     var qtdEstoque: Int = 0
         set(value) {
-            if (value <= 0) {
+            if (value < 0) {
                 throw Exception("Quantidade inválida, deve ser maior que zero")
             }
 
@@ -25,5 +25,9 @@ open class Item(val codigo: String, preco: BigDecimal, val descricao: String, qt
     init {
         this.preco = preco
         this.qtdEstoque = qtdEstoque
+    }
+
+    override fun toString(): String {
+        return "codigo='$codigo', descricao='$descricao', preco=$preco, qtdEstoque=$qtdEstoque"
     }
 }
