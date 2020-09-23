@@ -10,53 +10,29 @@ class BancoDeDados {
     val livros: MutableList<Livro> = mutableListOf()
     val colecoes: MutableList<ColecaoDeLivro> = mutableListOf()
 
-    fun cadastrarLivro(livro: Livro) {
-        for (l in livros) {
-            if (l.codigo == livro.codigo) {
-                throw Exception("Livro com mesmo código já cadastrado!")
-            }
+    private fun checkSeNaoDuplicado(codigo: String) {
+        if (livros.any { it.codigo == codigo }
+                || colecoes.any { it.codigo == codigo }) {
+            throw Exception("Livro ou Coleção com mesmo código já cadastrado!")
         }
+    }
 
+    fun cadastrarLivro(livro: Livro) {
+        checkSeNaoDuplicado(livro.codigo)
         livros.add(livro)
     }
 
     fun cadastrarColecao(colecao: ColecaoDeLivro) {
-        for (c in colecoes) {
-            if (c.codigo == colecao.codigo) {
-                throw Exception("Coleção com mesmo código já cadastrado!")
-            }
-        }
-
+        checkSeNaoDuplicado(colecao.codigo)
         colecoes.add(colecao)
     }
 
     fun consultarLivroPorCodigo(codigo: String): Item? {
-        for (l in livros) {
-            if (l.codigo == codigo) {
-                return l
-            }
+        val livro = livros.find { it.codigo == codigo }
+        if (livro != null) {
+            return livro
         }
 
-        for (c in colecoes) {
-            if (c.codigo == codigo) {
-                return c
-            }
-        }
-
-        return null
-    }
-
-    fun registraVenda(codigo: String) {
-        for (l in livros) {
-            if (l.codigo == codigo) {
-                l.qtdEstoque--
-            }
-        }
-
-        for (c in colecoes) {
-            if (c.codigo == codigo) {
-                c.qtdEstoque--
-            }
-        }
+        return colecoes.find { it.codigo == codigo }
     }
 }
