@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e107caa-ddd5-4c0d-8197-6b7eb3a96ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PreDesafioKotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/digitalhouse/aplicacao/Aplicacao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/digitalhouse/bancoDeDados/BancoDeDados.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/digitalhouse/dominio/ColecaoDeLivro.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/digitalhouse/dominio/Item.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/digitalhouse/dominio/Livro.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/digitalhouse/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/digitalhouse/bancoDeDados/BancoDeDados.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/digitalhouse/bancoDeDados/BancoDeDados.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/digitalhouse/dominio/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/digitalhouse/dominio/Item.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hvJ75ysnfqr4MTxVpKKBJ4vi6M" />
@@ -50,6 +33,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.com.digitalhouse.aplicacao" />
+      <recent name="br.com.digitalhouse.bancoDeDados" />
+      <recent name="br.com.digitalhouse.dominio" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,8 +60,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600885461494</updated>
-      <workItem from="1600885466171" duration="279000" />
+      <workItem from="1600885466171" duration="1297000" />
     </task>
+    <task id="LOCAL-00001" summary="Criando o projeto, estrutura e classes">
+      <created>1600885756168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600885756168</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +85,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criando o projeto, estrutura e classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando o projeto, estrutura e classes" />
   </component>
 </project>
