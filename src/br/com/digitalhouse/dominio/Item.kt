@@ -2,7 +2,6 @@ package br.com.digitalhouse.dominio
 
 import java.lang.Exception
 import java.math.BigDecimal
-import java.math.BigInteger
 
 open class Item(val codigo: String, preco: BigDecimal, val descricao: String, qtdEstoque: Int) {
 
